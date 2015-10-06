@@ -4,7 +4,7 @@ using System.Text.RegularExpressions;
 
 namespace SemVer
 {
-    internal class Comparator : IEquatable<Comparator>
+    public class Comparator : IEquatable<Comparator>
     {
         public readonly Operator ComparatorType;
 

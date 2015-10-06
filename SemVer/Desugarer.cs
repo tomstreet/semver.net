@@ -5,7 +5,7 @@ using System.Text.RegularExpressions;
 
 namespace SemVer
 {
-    internal static class Desugarer
+    public static class Desugarer
     {
         private const string versionChars = @"[0-9a-zA-Z\-\+\.\*]";
 
